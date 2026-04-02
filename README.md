@@ -1,4 +1,6 @@
 ## Hi there 👋
+공부를 시작하려고요
+게을러서 잘 하진 않겠지요
 
 <!--
 **aldzm0802/aldzm0802** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
