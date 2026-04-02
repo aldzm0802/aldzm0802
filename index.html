@@ -17,5 +17,16 @@
         document.getElementById("text").innerText = "나는 여우가 좋아요";
       }
     </script>
+    <input type="text" id="nameinput">
+    <button onclick="showText()">확인</button>
+
+    <p id="result"></p>
+    
+    <script>
+      function showText() {
+        let value = document.getElementById("nameinput").value;
+        document.getElementById("result").innerText = value;
+      }
+    </script>
   </body>
 </html>
