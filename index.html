@@ -10,6 +10,12 @@
   <body>
     <h1>안녕하세용</h1>
     <p>이건 제가 처음 만든 웹페이지입니다</p>
-    <button>이게 뭔가요?</button>
+    <button onclick="changeText()">이게 뭔가요?</button>
+    <p id="text">잘 모르겠습니다</p>
+    <script>
+      function changeText() {
+        document.getElementById("text").innerText = "나는 여우가 좋아요";
+      }
+    </script>
   </body>
 </html>
